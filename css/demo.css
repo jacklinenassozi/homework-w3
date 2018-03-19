@@ -1,0 +1,295 @@
+body{
+    border:1px solid;
+    margin:10px;
+    padding:15px;
+}
+.one{
+    float:left;
+width:50%;
+margin:0px;
+padding:0px;
+}
+#first{
+    margin-top:30px;
+    margin-left:60px;
+    width:80%;
+    padding:70px;
+    padding-left:150px;
+   }
+#first:hover{
+    display:block;
+    background-color:#e4e4e4;;
+ color:blue;
+ padding-right:10px;
+}
+   /*#progress{
+    width:90%;
+    margin:0px;
+    padding:8px;
+}*/
+.progress{
+   border:1px solid;
+   padding:20px;
+  padding_left:0px;
+}
+.percent{
+    position:relative;
+    bottom:20px;
+    left:-20px;
+    padding:16px;
+    float:left;
+    width:10%;
+    height:8px;
+    background-color: #d4d6d5;
+}
+#logo{
+    border:1px solid;
+    font-size:1.5em;
+    padding:40px;
+    background-color: #d4d6d5;
+}
+#navigation{
+border:1px solid;
+    font-size:1.5em;
+    padding:25px 150px 25px 150px;
+    background-color: #d4d6d5;
+text-align: center;
+margin-left:60px;
+}
+#page{
+        position: relative;
+        top:0px;
+        left:-4px;
+        
+}
+#billing{
+        position: relative;
+        top:10px;
+        left:-195px;
+}
+.shipping{
+    padding-top:10px;
+}
+.name{
+    padding:10px;
+    padding-left:40px;
+}
+#first-name,#last-name,#street-address,#post-code{
+    padding:8px;
+    width:20%;
+}
+#firstname,#lastname,#streetaddress,#postcode{
+    padding:8px;
+    width:20%;
+}
+#country{
+    padding:8px;
+    width:15%;
+    height: 30px;
+}
+#country1{
+    padding:8px;
+    width:15%;
+    height: 30px;
+}
+.country-c{
+    padding:15px;
+    padding-left:55px;
+}
+.street{
+    padding:10px;
+    padding-left:20px;
+}
+.Name{
+    padding:10px;
+    padding-left:40px;
+   
+}
+#MyButton{
+margin-left:90%;
+width:10%;
+background-color: #d4d6d5;
+height:50px;
+text-align:center;
+padding-top:25px;
+}
+.input-text{
+    float:right;
+    margin-left:500px;
+    clear:both;
+}
+#shipping-address{
+    width:1%;
+}
+.shipping{
+    padding-left:8px;
+}
+.description{
+    float:left;
+    padding:10px;
+    padding-top:20px;
+
+}
+#profile-description{
+    width:40%;
+    padding:10px;
+    position: relative;
+        top:10px;
+}
+/*@media(max-width:600px){
+    .text-right{
+    text-align:left!important;
+}
+}*/
+.email{
+    padding:10px;
+    padding-left:87px;
+}
+.password{
+    padding:10px;
+    padding-left:65px;
+}
+.re-enter{
+    padding:10px;
+    padding-left:5px;
+}
+#email,#password,#re-enter-password,#phone{
+    padding:8px;
+    width:20%;
+}
+.news{
+    padding-left:50px;
+}
+#stay{
+  position: relative;
+  top:0px;
+  left:-350px;
+}
+.percent{
+position:relative;
+bottom:20px;
+left:-20px;
+padding:16px;
+float:left;
+width:25%;
+height:8px;
+background-color: #d4d6d5;
+}
+#weekly-news,#monthly-news,#dont-send-me-news{
+width:1%;
+padding:6px;
+}
+
+.offers{
+    margin:50px;
+    line-height:10px
+ }
+ .percent{
+position:relative;
+bottom:20px;
+left:-20px;
+padding:16px;
+float:left;
+width:60%;
+height:8px;
+background-color: #d4d6d5;
+}
+img{
+width:20%;
+}
+#paragraph{
+position: relative;
+top:0px;
+left:-770px;
+}
+#apparal,#jewelry,#accessories,#shoes,#hand-bags{
+width:1%;
+padding:6px;
+}
+
+.apparal{
+padding-top:0px;
+padding-left:40px;
+}
+.jewelry{
+padding-top:0px;
+float:right;
+position:relative;
+left:-700px 
+}
+.accessories{
+padding-left:15px;
+padding-top:20px;
+}
+.shoes{
+float:right;
+position:relative;
+left:-700px 
+}
+.hand-bags{
+padding-top:20px;
+padding-left:25px;
+}
+.img-1{
+width:1%;
+padding:8px;
+}
+body{
+    border:1px solid;
+    margin:10px;
+    padding:15px;
+}
+.progress{
+  animation: 1.5s ease-out 0s 1 slideInRight;
+margin-bottom: 20px;
+}
+.card{
+padding:10px;
+padding-left:75px;
+}
+.card-type{
+padding:15px;
+padding-left:100px;
+}
+.credit{
+padding:10px;
+padding-left:40px;
+}
+.month{
+padding:10px;
+padding-left:72px;
+}
+.ccv{
+padding:10px;
+padding-left:140px;
+}
+#name-on-card,#card-type,#credit-card-number{
+padding:8px;
+width:20%;
+}
+#data{
+position: relative;
+  top:10px;
+  left:100px;
+ 
+}
+
+.percent{
+position:relative;
+bottom:20px;
+left:-20px;
+padding:16px;
+float:left;
+width:85%;
+height:8px;
+background-color: #d4d6d5;
+}
+#expiry-month,#expiry-year,#ccv{
+padding:8px;
+width:1%;
+}
+@media(max-width:600px){
+    .text-right{
+    text-align:left!important;
+}
+}

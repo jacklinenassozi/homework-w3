@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wire frames</title>
+  <meta name="description" content="Layout exercise">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/demo.css">
+</head>
+<body>
+    <div id="first">
+        <div class="one"><span id="logo">logo</span></div>
+        <div class="one"><span id="navigation">navigation</span></div>
+    </div>
+    <h1>Sign up to yourcustomtailor.com</h1>
+<h2>Step 2/4-tell us how we can reach you?</h2>
+<p>Progress</p>
+<div class="progress">
+    <div class="progress-bar" style="width:60%"></div>
+    <span class="percent"></span>
+</div>
+<p id="stay">We wil probably need to stay in touch somehow.Let us know how we can reach you?</p>
+<form action="index2.html">
+    <div class="email">
+    <label for="email"> Email*</label>
+    <input required type="text" id="email" name="user_mail">
+    <label for="phone"> Phone</label>
+    <input type="text" id="phone" name="user_phone" pattern="[0-9]{4}" >
+</div>
+    <div class="password">
+        <label for="password"> Password*</label>
+        <input required type="password" id="password" name="user_password">
+ </div>
+ <div class="re-enter">
+    <label for="re-enter-password">Re-enter password*</label>
+    <input required type="text" id="re-enter-password" name="user_re-enter_password">
+     </div>
+     <p>I want to sign up for the newsletter</p>
+    <div class="news">
+        <label for="weekly-news"> Weekly news*</label>     
+    <input required type="checkbox" id="weekly-news" name="user_news">
+    <label for="monthly-news"> Monthly news*</label>     
+    <input required type="checkbox" id="monthly-news" name="user_news">
+    <label for="dont-send-me-news">Dont send me news</label> 
+    <input type="checkbox" id="dont-send-me-news" name="user_news">
+    </div>
+    <div>
+            
+                    <!--<input class="MyButton" type="button" value="Next step" onclick="window.location.href='index3.html'" />-->
+                    <div id="MyButton">
+                    <button>Next step</button>
+                </div>
+               
+    </div>   
+</form>
+</body>
+</html>

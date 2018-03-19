@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    
+  <meta charset="utf-8">
+
+  <title>Wire frames</title>
+  <meta name="description" content="Layout exercise">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/demo.css">
+</head>
+<body>
+    <div id="first">
+        <div class="one"><span id="logo">logo</span></div>
+        <div class="one"><span id="navigation">navigation</span></div>
+    </div>
+    <h1>Sign up to yourcustomtailor.com</h1>
+<h2>Step 4/4-tell us how we can reach you?</h2>
+<p>Progress</p>
+<div class="progress">
+    <div class="progress-bar" style="width:0%"></div>
+    <span class="percent"></span>
+</div>
+<span>Please fill in your payment data</span>
+<form action="index2.html">
+    
+    <div class="card">
+    <label for="name-on-card"> Name on card*</label>
+    <input required type="text" id="name-on-card" name="user_name on card">
+</div>
+    <div class="card-type">
+    <label for="card-type"> Card type*</label>
+    <input required type="text" id="card-type" name="user_type card">
+</div>
+    <div class="credit">
+        <label for="credit-card-number"> Credit card number*</label>
+        <input required type="number" id="credit-card-number" name="user_credit card number">
+        <label for="first-name"> First name*</label>
+        <input required type="text" id="first-name" name="user_first name">
+ </div>
+    <div class="month"> 
+        <label> Expiry month*</label>     
+    <select required name="month">
+        <option value=""> month...</option>
+<option value="Dec"> December</option>
+<option value="Jan"> January</option>
+<option value="Feb"> Febuary</option>
+    </select> 
+    <label> Expiry year*</label>      <select required name="year">
+            <option value="">year...</option>
+    <option value="2018"> 2018</option>
+    <option value="2017"> 2017</option>
+    <option value="2016"> 2016</option>
+        </select> 
+</div>
+    <div class="ccv">
+    <label for="ccv">ccv*</label>     
+    <input required type="checkbox" id="ccv" name="user_ccv">
+    </div>
+    
+    <!--<input class="MyButton" type="button" value="Next step" onclick="window.location.href='index4.html'" />-->
+    <div id="MyButton">
+    <button>Next step</button>
+</div>
+</form>
+
+</body>
+</html>
